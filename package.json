@@ -1,0 +1,32 @@
+{
+  "name": "eng-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16.14.0",
+    "npm": ">=8.5.1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "oxford-dictionary": "^1.6.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "readline": "^1.3.0",
+    "sib-api-v3-sdk": "^8.4.2"
+  },
+  "keywords": [],
+  "author": "Martin Pan",
+  "license": "ISC"
+}
