@@ -5,7 +5,7 @@ const dbURL = "mongodb+srv://MartinMvc5:pan557333@cluster0-62eu6.mongodb.net/voc
 const readLine = require('readline');
 
 const connect = () => {
-    setTimeout(() => mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true }), 1000);// useCreateIndex: true,
+    setTimeout(() => mongoose.connect(encodeURI(dbURL), { useNewUrlParser: true, useUnifiedTopology: true }), 1000);// useCreateIndex: true,
 }
 
 mongoose.connection.on('connected', () => {
